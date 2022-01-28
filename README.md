@@ -32,7 +32,7 @@ NOTE: That at the moment only Linux can run the SABACC executable
 
 First, make sure you have the following directory:
 ```
-/mnt/c/ImagiSpark/games/Sabacc_ASM32
+//mnt/c/ImagiSpark/games/Sabacc_ASM32
 ```
 Then, go to the [releases page](https://github.com/Drackor15/Sabacc_ASM32/releases) & download the zip containing __Rules.txt__, __Table.txt__, __Menu.txt__, & the __SABACC__ executable.
 Unzip those files & place them in the directory you created, & run the SABACC executable:
