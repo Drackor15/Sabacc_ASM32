@@ -1,0 +1,119 @@
+SABACC RULES
+--------------------------------------
+76 Cards
+
+Cards are numbered 1-15 in the 4 suits (coins, flasks, staves, sabers)
+
+16 Face Cards (2 of each face):
+
+The Idiot (0), The Queen (-2), Endurance (-8), Balance (-11),
+Demise (-13), Moderation (-14), The Evil One (-15), The Star (-17)
+
+
+Win Conditions
+--------------------------------------
+Add your cards. Highest Hand wins. A hand can only be <= 23.
+
+	(Variant)
+	----------
+	The hand with the highest absolute value wins.
+	This means that negative hands could beat positive hands
+	if they are closer to -23 than the positive hand is to 23.
+	In case of a tie, a positive hand will beat a negative one.
+
+
+Winning Hands in Order of Strength
+--------------------------------------
+Idiots Array: Contains The Idiot, and a 2 & 3 from the same suit.
+
+Pure Sabacc: Hand Total = 23
+
+	(Variant)
+	----------
+	Weak Sabacc: Hand Total = -23
+
+
+End of Game
+--------------------------------------
+If a Winning Hand (Idiots Array, Pure Sabacc, & Weak Sabacc) is played
+then the Entire Game ends. The Player with the Winning Hand gets the
+Sabacc Pot & the Hand Pot.
+
+
+Pots
+--------------------------------------
+Hand Pot: The Pot for this Hand, whoever wins this Hand will win the
+	  Hand Pot. Any payments made into the Hand Pot must also be
+	  made into the Sabacc Pot.
+
+Sabacc Pot: The Pot for the Entire Game. The Sabacc Pot is equal to
+	    all of the Hand Pots that have been made throughout the
+	    Entire game.
+
+
+Bomb Out
+--------------------------------------
+If a player ends a Hand over 23, under -23, or at exactly 0, then
+the Player must pay an amount equal to the Hand Pot into the Sabacc Pot.
+
+
+Ties (Sudden Demise)
+--------------------------------------
+If two or more players tie, then both must draw a card. Even if both
+go over 23, whoever has the hand closest to 23 wins. If only one of
+the players bombs out, then whoever didn't is the winner.
+
+If both players tie again, the Hand Pot is split. If this is the last
+Hand of the Game, then both player also split the Sabacc Pot.
+
+
+Phases of Play
+--------------------------------------
+1)	Pay an anti of 5 credits into both Pots. If a player
+	is unable to pay the anti, then they forfeit the Game.
+
+2)	2 cards are dealt to each player.
+
+3)	A player may place a bet, or fold for this Hand. This is the only
+	time a player may fold from this hand. If a player folds,
+	they must pay a penalty into the Sabacc Pot equal to the Hand Pot.
+
+4)	Card Shift Occurs
+
+5)	Each player may raise bets once, paying as needed.
+	A player may also ask to see if other players want to Call the hand.
+	If another player Calls, then a Shift Occurs & cards are revealed.
+	If the player who Calls loses, then they pay a penalty into the
+	Sabaac Pot.
+
+6)	In this Sabacc Variant, Players may only draw up to 7 cards. If a player
+	draws one or more cards, they may discard only one card. Hands must have a
+	minimum of 2 cards.
+
+7)	Card Shift Occurs
+
+8)	Each player may raise bets once, paying as needed.
+	A player may also ask to see if other players want to Call the hand.
+	If another player Calls, then a Shift Occurs & cards are revealed.
+	If the player who Calls loses, then they pay a penalty into the
+	Sabaac Pot.
+
+9)	Card Shift Occurs
+
+10)	Hands are revealed. If the Game is not won with a Winning Hand,
+	then reapeat play.
+
+
+Folding
+--------------------------------------
+At any point in the Game, a player may fold from the Entire Game. No
+penalties are payed. However, the player cannot join the Game again.
+
+
+Shifting
+--------------------------------------
+During certain phases of a Hand the cards in a player's hand have
+a chance to shift to another card in the deck. You can prevent a
+card from shifting by placing it in the Interference Shield.
+
+PRESS ESC TO RETURN TO MENU
